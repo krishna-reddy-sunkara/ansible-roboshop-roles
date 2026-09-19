@@ -1,0 +1,5 @@
+- name: "configure {{ component }} server" # for creating server with name {{ component }} means we give the name in command line interface
+  hosts: "{{ component }}"
+  become: yes
+  roles:
+  - "{{ component }}"
