@@ -1,0 +1,3 @@
+- name": test case
+  ansible.builtin.debug:
+   msg: "{{ hai this is example perpose }}"
